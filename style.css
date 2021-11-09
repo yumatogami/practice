@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	height: auto;
+}
+
+img{
+	border: none;
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*ーーーーーーーーメイン画像ーーーーーーーーーー*/
+#mainphoto img{
+	max-width: 100%;
+	height: 500px;
+}
+
+#top h2{
+	margin-top: 0px;
+	margin-left: 150px;
+}
+
+/*ーーーーーーーーーーー作品ーーーーーーーーーーーーーー*/
+#maincontents{
+	background: linear-gradient(to right white 65% #e1b0b8)
+}
+
+#maincontents h2{
+	padding-top: 150px;
+}
+
+#works{
+	display: flex;
+	justify-content: space-around;
+	height: 350px;
+}
+
+.sites{
+	padding-top: 120px;
+	margin: 0 auto;
+}
+
+.sites img{
+	width: 100%;
+}
+
+.sites div{
+	border: 2px solid #aec4ba;
+	width: 300px;
+	height: 164px;
+}
+
+.sites figcaption{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.hover{
+	position: relative;
+	overflow: hidden;
+}
+
+.hover img{
+	position: absolute;
+}
+
+.hover:hover #school img:nth-of-type(2){
+	opacity: 0;
+}
+
+.hover:hover #cafe img:nth-of-type(2){
+	opacity: 0;
+}
+
+/*ーーーーーーーーーーーー制作ポイントーーーーーーーーーーー*/
+#workpoint{
+	width: 700px;
+	height: 400px;
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#pointtitle{
+	background-color: #aec4ba;
+	color: white;
+	height: 60px;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: auto;
+	padding-left: 25px;
+}
+
+#pointcontents{
+	border: 2px solid #aec4ba;
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif";
+	height: 150px;
+	background-color: white;
+}
+
+.mostpoint{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*ーーーーーーーーープロフィールーーーーーーーーーーー*/
+#profile {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*ーーーーーーーーーーーアイコンーーーーーーーーーーー*/
+#icon{
+	margin-top: 120px;
+}
+
+#icon img{
+	width: 120px;
+	height: 170px;
+	border: 5px groove #c4b5ae;
+}
+
+/*ーーーーーーーーーー自己紹介ーーーーーーーーーーー*/
+#sideprofile{
+	margin-top: 200px;
+	margin-left: 40px;
+	font-size: 18px;
+}
+
+#sideprofile b{
+	background: linear-gradient(to right, orange, #c4b5ae 80%);
+	font-size: 25px;
+}
+
+#sideprofile li{
+	padding-top: 15px;
+}
+
+/*ーーーーーーーーーーー経歴・スキルーーーーーーーーーーー*/
+#subcontets{
+	display: flex;
+	justify-content: space-around;
+	width: 900px;
+	margin: 230px auto;
+	margin-bottom: 400px
+}
+
+#subcontets th{
+	padding-right: 35px;
+	padding-top: 20px;
+}
+
+#subcontets td{
+	padding-top: 18px;
+}
+
+#subtitle{
+	margin-left: 100px;
+}
+
+.table{
+	padding-top: 90px;
+}
+
+/*ーーーーーーーーーーーメール・電話番号ーーーーーーーーーーー*/
+.address{
+	text-align: center;
+}
+
+.address a{
+	font-size: 22px;
+	color: #aec4ba;
+	text-decoration: none;
+}
+
+.address a:hover{
+	text-decoration: underline;
+}
+
+.address p{
+	font-size: 22px;
+	color: #aec4ba;
+	padding-bottom: 60px;
+}
+
+/*ーーーーーーーーーーーーフッターーーーーーーーーーーーーー*/
+footer a img{
+	float: left;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+footer p{
+	float: right;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
